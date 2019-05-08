@@ -30,7 +30,7 @@ public class AuthenticationTest {
 
     @Before
     public void AccountUser() {
-        simpleAccountRealm.addAccount("huai", "12345");
+        simpleAccountRealm.addAccount("huai", "12345","admin","user");
     }
 
     @Test
@@ -44,13 +44,20 @@ public class AuthenticationTest {
         //主体提交认证请求
         Subject subject = SecurityUtils.getSubject();
 
+        //用户登录
         UsernamePasswordToken token = new UsernamePasswordToken("huai", "12345");
         subject.login(token);
-
         System.out.println("isAuthentication: "+ subject.isAuthenticated());
 
-        subject.logout();
-        System.out.println("isAuthentication: "+ subject.isAuthenticated());
+        //用户登出
+        /*subject.logout();
+        System.out.println("isAuthentication: "+ subject.isAuthenticated());*/
+
+        //用户认证
+        // checkRole(s) 方法没有返回值，若当前登录人员无该角色，则抛出异常提示
+        subject.checkRole("admin");
+
+        subject.checkRoles("admin","user");
 
 
     }
