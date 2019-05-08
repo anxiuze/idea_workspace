@@ -2,34 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f860912c-eed8-45da-b1a0-254105f2c70f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/shiro_test/src/test/java/huai/shiro/test/AuthenticationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro_test/src/test/java/huai/shiro/test/AuthenticationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro_test/src/test/java/huai/shiro/test/JdbcRealmTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro_test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shiro_test/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shiro_test/target/test-classes/huai/shiro/test/AuthenticationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/shiro_test/target/test-classes/huai/shiro/test/AuthenticationTest.class" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/shiro_test/target/" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1125953082">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="203" />
+          <entry key="ini" value="90" />
+          <entry key="java" value="1597" />
+          <entry key="sql" value="119" />
+          <entry key="xml" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="203" />
+          <entry key="JAVA" value="1597" />
+          <entry key="PLAIN_TEXT" value="90" />
+          <entry key="Scratch" value="119" />
+          <entry key="XML" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="1" />
+          <entry key="class" value="2" />
+          <entry key="ini" value="1" />
+          <entry key="java" value="2" />
+          <entry key="sql" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
+          <entry key="CLASS" value="2" />
+          <entry key="JAVA" value="2" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -37,47 +68,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shiro_test/pom.xml">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e6b07dec-71ab-4bbb-834c-01ad3c9837f3/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+            <state relative-caret-position="51">
+              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/shiro_test/src/test/java/huai/shiro/test/AuthenticationTest.java">
+        <entry file="file://$PROJECT_DIR$/shiro_test/src/test/java/huai/shiro/test/JdbcRealmTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="610">
-              <caret line="56" column="51" selection-start-line="56" selection-start-column="51" selection-end-line="56" selection-end-column="51" />
+            <state relative-caret-position="468">
+              <caret line="65" column="37" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#703#704#0" expanded="true" />
-                <element signature="e#765#766#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Softs/maven/mavenRepository/org/apache/shiro/shiro-core/1.4.1/shiro-core-1.4.1.jar!/org/apache/shiro/subject/Subject.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shiro_test/src/main/java/TestApplication.java">
+        <entry file="jar://D:/Softs/maven/mavenRepository/org/apache/shiro/shiro-core/1.4.1/shiro-core-1.4.1.jar!/org/apache/shiro/realm/jdbc/JdbcRealm.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <caret line="37" column="58" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -92,6 +107,9 @@
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>DEFAULT_USER_ROLES_QUERY</find>
+    </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
@@ -103,6 +121,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/shiro_test/src/test/java/huai/shiro/test/AuthenticationTest.java" />
+        <option value="$PROJECT_DIR$/shiro_test/src/test/resource/user.ini" />
+        <option value="$PROJECT_DIR$/shiro_test/src/test/java/huai/shiro/test/IniRealmTest.java" />
+        <option value="$PROJECT_DIR$/shiro_test/pom.xml" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e6b07dec-71ab-4bbb-834c-01ad3c9837f3/console.sql" />
+        <option value="$PROJECT_DIR$/shiro_test/src/test/java/huai/shiro/test/JdbcRealmTest.java" />
       </list>
     </option>
   </component>
@@ -124,6 +147,18 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -183,6 +218,14 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="idea_workSpace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Idea_WorkSpace" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -191,7 +234,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557319913626" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557325162520" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -205,7 +251,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AuthenticationTest.testShrio">
+  <component name="RunManager" selected="JUnit.JdbcRealmTest.JdbcRealmTest">
     <configuration name="TestApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestApplication" />
       <module name="shiro_test" />
@@ -229,12 +275,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IniRealmTest.IniRealmTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shiro_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="huai.shiro.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="huai.shiro.test" />
+      <option name="MAIN_CLASS_NAME" value="huai.shiro.test.IniRealmTest" />
+      <option name="METHOD_NAME" value="IniRealmTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcRealmTest.JdbcRealmTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shiro_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="huai.shiro.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="huai.shiro.test" />
+      <option name="MAIN_CLASS_NAME" value="huai.shiro.test.JdbcRealmTest" />
+      <option name="METHOD_NAME" value="JdbcRealmTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.TestApplication" />
       <item itemvalue="JUnit.AuthenticationTest.testShrio" />
+      <item itemvalue="JUnit.IniRealmTest.IniRealmTest" />
+      <item itemvalue="JUnit.JdbcRealmTest.JdbcRealmTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JdbcRealmTest.JdbcRealmTest" />
+        <item itemvalue="JUnit.IniRealmTest.IniRealmTest" />
         <item itemvalue="JUnit.AuthenticationTest.testShrio" />
         <item itemvalue="Application.TestApplication" />
       </list>
@@ -251,44 +333,44 @@
       <option name="presentableId" value="Default" />
       <updated>1557235697037</updated>
       <workItem from="1557235699898" duration="811000" />
-      <workItem from="1557316306570" duration="3602000" />
+      <workItem from="1557316306570" duration="8267000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AuthenticationTest_testShrio - 2019.05.08 at 20h 31m 46s.xml">
-      <configuration name="AuthenticationTest.testShrio" configurationId="JUnit" />
+    <history-entry file="JdbcRealmTest_JdbcRealmTest - 2019.05.08 at 22h 06m 24s.xml">
+      <configuration name="JdbcRealmTest.JdbcRealmTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AuthenticationTest_testShrio - 2019.05.08 at 20h 34m 01s.xml">
-      <configuration name="AuthenticationTest.testShrio" configurationId="JUnit" />
+    <history-entry file="JdbcRealmTest_JdbcRealmTest - 2019.05.08 at 22h 06m 33s.xml">
+      <configuration name="JdbcRealmTest.JdbcRealmTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AuthenticationTest_testShrio - 2019.05.08 at 20h 34m 21s.xml">
-      <configuration name="AuthenticationTest.testShrio" configurationId="JUnit" />
+    <history-entry file="JdbcRealmTest_JdbcRealmTest - 2019.05.08 at 22h 09m 34s.xml">
+      <configuration name="JdbcRealmTest.JdbcRealmTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AuthenticationTest_testShrio - 2019.05.08 at 20h 34m 58s.xml">
-      <configuration name="AuthenticationTest.testShrio" configurationId="JUnit" />
+    <history-entry file="JdbcRealmTest_JdbcRealmTest - 2019.05.08 at 22h 09m 43s.xml">
+      <configuration name="JdbcRealmTest.JdbcRealmTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AuthenticationTest_testShrio - 2019.05.08 at 20h 35m 23s.xml">
-      <configuration name="AuthenticationTest.testShrio" configurationId="JUnit" />
+    <history-entry file="JdbcRealmTest_JdbcRealmTest - 2019.05.08 at 22h 11m 47s.xml">
+      <configuration name="JdbcRealmTest.JdbcRealmTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AuthenticationTest_testShrio - 2019.05.08 at 20h 36m 15s.xml">
-      <configuration name="AuthenticationTest.testShrio" configurationId="JUnit" />
+    <history-entry file="JdbcRealmTest_JdbcRealmTest - 2019.05.08 at 22h 12m 38s.xml">
+      <configuration name="JdbcRealmTest.JdbcRealmTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AuthenticationTest_testShrio - 2019.05.08 at 20h 49m 42s.xml">
-      <configuration name="AuthenticationTest.testShrio" configurationId="JUnit" />
+    <history-entry file="JdbcRealmTest_JdbcRealmTest - 2019.05.08 at 22h 14m 30s.xml">
+      <configuration name="JdbcRealmTest.JdbcRealmTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AuthenticationTest_testShrio - 2019.05.08 at 20h 49m 55s.xml">
-      <configuration name="AuthenticationTest.testShrio" configurationId="JUnit" />
+    <history-entry file="JdbcRealmTest_JdbcRealmTest - 2019.05.08 at 22h 16m 36s.xml">
+      <configuration name="JdbcRealmTest.JdbcRealmTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AuthenticationTest_testShrio - 2019.05.08 at 20h 50m 37s.xml">
-      <configuration name="AuthenticationTest.testShrio" configurationId="JUnit" />
+    <history-entry file="JdbcRealmTest_JdbcRealmTest - 2019.05.08 at 22h 19m 08s.xml">
+      <configuration name="JdbcRealmTest.JdbcRealmTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AuthenticationTest_testShrio - 2019.05.08 at 20h 50m 57s.xml">
-      <configuration name="AuthenticationTest.testShrio" configurationId="JUnit" />
+    <history-entry file="JdbcRealmTest_JdbcRealmTest - 2019.05.08 at 22h 19m 19s.xml">
+      <configuration name="JdbcRealmTest.JdbcRealmTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="395000" />
+    <option name="totallyTimeSpent" value="5060000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -301,24 +383,25 @@
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.15778251" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" weight="0.32962137" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
       <window_info anchor="bottom" id="Messages" order="4" weight="0.32925472" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.32850778" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.32850778" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Database" order="2" weight="0.32995737" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32995737" />
       <window_info anchor="right" id="Commander" order="6" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
@@ -328,12 +411,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/Softs/maven/mavenRepository/org/apache/shiro/shiro-core/1.4.1/shiro-core-1.4.1.jar!/org/apache/shiro/subject/Subject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/shiro_test/src/test/java/huai/shiro/test/AuthenticationTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -343,6 +422,68 @@
             <element signature="imports" expanded="true" />
             <element signature="e#703#704#0" expanded="true" />
             <element signature="e#765#766#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro_test/src/test/resource/user.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro_test/src/test/java/huai/shiro/test/IniRealmTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Softs/maven/mavenRepository/org/apache/shiro/shiro-core/1.4.1/shiro-core-1.4.1.jar!/org/apache/shiro/subject/Subject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro_test/src/main/java/TestApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro_test/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e6b07dec-71ab-4bbb-834c-01ad3c9837f3/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Softs/maven/mavenRepository/org/apache/shiro/shiro-core/1.4.1/shiro-core-1.4.1.jar!/org/apache/shiro/realm/jdbc/JdbcRealm.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="37" column="58" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiro_test/src/test/java/huai/shiro/test/JdbcRealmTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="65" column="37" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
