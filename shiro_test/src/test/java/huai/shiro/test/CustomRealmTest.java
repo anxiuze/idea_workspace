@@ -2,6 +2,7 @@ package huai.shiro.test;
 
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.UsernamePasswordToken;
+import org.apache.shiro.authc.credential.HashedCredentialsMatcher;
 import org.apache.shiro.mgt.DefaultSecurityManager;
 import org.apache.shiro.subject.Subject;
 import com.huai.shiro.realm.CustomRealm;
@@ -23,8 +24,11 @@ public class CustomRealmTest {
 
         //1. 构建SecurityManage对象
         DefaultSecurityManager defaultSecurityManager = new DefaultSecurityManager();
-
         defaultSecurityManager.setRealm(customRealm);
+        HashedCredentialsMatcher matcher = new HashedCredentialsMatcher();
+        matcher.setHashAlgorithmName("md5"); //
+        matcher.setHashIterations(1); //加密次数
+        customRealm.setCredentialsMatcher(matcher);
 
         SecurityUtils.setSecurityManager(defaultSecurityManager);
 
