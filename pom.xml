@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>shiro_test</module>
+        <module>shiro_web</module>
     </modules>
 
 
